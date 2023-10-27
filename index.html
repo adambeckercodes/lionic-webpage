@@ -374,11 +374,45 @@
         </address>
       </div>
     </section>
-    <!-- <section id="join-us section-offset" class="join-us">
-      <div class="container">
+    <section id="join-us" class="join-us section-offset">
+      <div class="container join-us-container">
+        <h2 class="section-title join-us-title">Join Us</h2>
+        <p class="section-descr join-us-descr">
+          Take control of&nbsp;your paid subscriptions today!
+        </p>
+        <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="form">
+          <div class="form-top flex">
+            <div class="form-left flex">
+              <input class="form-input" type="text" name="name" placeholder="Name" required>
+              <input class="form-input" type="email" name="email" placeholder="E-Mail" required>
+              <input class="form-input" type="tel" name="phone" placeholder="Phone" required>
+              <select class="form-select" name="country">
+                <option value="Country" disabled selected>Country</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="United States">United States</option>
+                <option value="France">France</option>
+                <option value="Germany">Germany</option>
+                <option value="Spain">Spain</option>
+                <option value="Estonia">Estonia</option>
+              </select>
+            </div>
+            <div class="form-right">
+              <textarea class="form-textarea" name="comment" placeholder="Comment" required></textarea>
+            </div>
+          </div>
+          <div class="form-bottom">
+            <div class="form-wrapper flex">
+              <button class="btn btn-reset form-btn">get started</button>
+              <label class="form-check">
+                <input type="checkbox" required>
+                I agree with the <a href="#">user agreement</a>
+              </label>
+            </div>
+          </div>
+        </form>
 
       </div>
-    </section> -->
+    </section>
   </main>
 
   <footer class="footer">
