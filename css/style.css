@@ -155,6 +155,13 @@ body {
 
 .header-logo {
   margin-right: auto;
+  outline: 1px solid transparent;
+  outline-offset: 5px;
+  transition: outline-color .3s ease-in-out;
+}
+
+.header-logo:focus-visible {
+  outline-color: #71A7E2;
 }
 
 .header-nav {
@@ -723,6 +730,24 @@ body {
   outline-offset: 2px;
 }
 
+.checkbox-text a {
+  transition: color .3s ease-in-out;
+  outline: none;
+}
+
+.checkbox-text a:focus-visible {
+  color: #71A7E2;
+  outline: none;
+}
+
+.checkbox-text a:hover {
+  color: #71A7E2;
+}
+
+.checkbox-text a:active {
+  color: #3474BA;
+}
+
 /* FOOTER */
 .footer {
   padding: 42px 0;
@@ -740,6 +765,13 @@ body {
 
 .footer-logo {
   margin-right: 25px;
+  outline: 1px solid transparent;
+  outline-offset: 5px;
+  transition: outline-color .3s ease-in-out;
+}
+
+.footer-logo:focus-visible {
+  outline-color: #71A7E2;
 }
 
 .footer-copy {
