@@ -705,6 +705,11 @@ body {
   opacity: 1;
 }
 
+.checkbox:focus + .checkbox-text {
+  outline: 1px solid #71A7E2;
+  outline-offset: 2px;
+}
+
 /* FOOTER */
 .footer {
   padding: 42px 0;
