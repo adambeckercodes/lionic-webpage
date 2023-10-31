@@ -226,6 +226,10 @@ body {
   margin-right: 52px;
 }
 
+.burger {
+  display: none;
+}
+
 /* HERO */
 .hero {
   padding-top: 100px;
@@ -372,6 +376,7 @@ body {
   overflow: hidden;
   border: 1px solid var(--border-color);
   border-radius: 5px;
+  height: 100%;
 }
 
 .articles__item {
@@ -615,6 +620,7 @@ body {
 .form__left {
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: 14px;
 }
 
 .form__input,
@@ -635,9 +641,7 @@ body {
   transition-timing-function: ease-in-out;
 }
 
-.form__input:nth-child(-n + 2) {
-  margin-bottom: 19px;
-}
+
 
 .form__input:focus-visible,
 .form__select:focus-visible,
