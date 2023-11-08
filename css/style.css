@@ -675,6 +675,7 @@ body {
 .form__bottom {
   display: flex;
   justify-content: flex-end;
+  width: 100%;
 }
 
 .form__wrapper {
